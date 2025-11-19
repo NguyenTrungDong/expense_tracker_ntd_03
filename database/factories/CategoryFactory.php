@@ -20,6 +20,7 @@ class CategoryFactory extends Factory
             'name' => fake('vi_VN')->name(),
             'image'=> fake()->image,
             'description' => fake()->paragraph(),
+            'date' => now(),
             'created_at' => fake()->date('d-m-Y'),
         ];
     }
